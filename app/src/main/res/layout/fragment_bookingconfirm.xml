@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true">
+
+    <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <com.gmediasolutions.carpooling.custom.CheckView
+                            android:id="@+id/check"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="25dp"
+                            android:layout_gravity="center"
+                            app:checkView_strokeColor="@color/md_green_A100"
+                            app:checkView_strokeWidth="5dp"/>
+                    <TextView
+                            android:id="@+id/tv3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_weight="1"
+                            android:layout_marginTop="15dp"
+                            android:paddingLeft="15dp"
+                            android:paddingEnd="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingStart="15dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/booking_confirm"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="30sp"
+                            android:textStyle="bold"/>
+
+                    <TextView
+                            android:id="@+id/tv4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_weight="1"
+                            android:layout_marginTop="15dp"
+                            android:paddingLeft="15dp"
+                            android:paddingEnd="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingStart="15dp"
+                            android:gravity="center"
+                            style="@android:style/TextAppearance.Medium"
+                            android:text="@string/thank_order"
+                            android:textColor="@color/black" />
+
+                    <TextView
+                            android:id="@+id/tv5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_weight="1"
+                            android:layout_marginTop="15dp"
+                            android:paddingLeft="15dp"
+                            android:paddingEnd="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingStart="15dp"
+                            style="@android:style/TextAppearance.Medium"
+                            android:text="@string/contact_order"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"/>
+
+                    <Button
+                            android:id="@+id/btn_conti"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimaryDark"
+                            android:text="@string/go_to_booking"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+            </LinearLayout>
+    </ScrollView>>
+    </android.support.constraint.ConstraintLayout>
